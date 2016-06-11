@@ -1,0 +1,74 @@
+body{
+	font-family: sans-serif;
+}
+
+#wrapper{
+	margin: auto;
+	width: 750px;
+}
+
+#heading{
+	background-color: #990000;
+	color: #FFFFFF;
+	height: 250px;
+}
+
+#headingText{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.contentBox{
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 10px;
+	min-height: 300px;
+	margin-top: 35px;
+}
+
+.headBar{
+	background-color: #0066CC;
+	height: 30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 12px 0 0 10px;
+}
+
+table{
+	width: 90%;
+	margin: 10px 0 0 25px;
+	line-height: 30px;
+}
+
+tr{
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #888888;
+}
+
+#defaultRow{
+	font-weight: bold;
+}
+
+form{
+	line-height: 28px;
+	margin-left: 20px;
+}
+
+input{
+	width: 97%;
+}
+
+#submitButton{
+	width: 100px;
+	background-color: #0077BB;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+	height: 25px;
+}

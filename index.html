@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+		<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="heading">
+				<p id="headingText">Train Scheduler</p>
+			</div>
+			<div class="contentBox" id="trainList">
+				<div class="headBar">
+					Current Train Schedule
+				</div>
+				<table id="trainTable">
+					<tr id="defaultRow">
+						<td>Train Name</td>
+						<td>Destination</td>
+						<td>Frequency (min)</td>
+						<td>Next Arrival</td>
+						<td>Minutes Away</td>
+					</tr>
+				</table>
+			</div>
+			<div class="contentBox" id="addTrain">
+				<div class="headBar">
+					Add Train
+				</div>
+				<form id="addTrainForm">
+					Train Name<br>
+					<input type="text" name="trainname" id="trainName"><br>
+					Destination<br>
+					<input type="text" name="destination" id="destination"><br>
+					First Train Time (HH:mm - military time)<br>
+					<input type="text" name="firsttime" id="firstTrainTime"><br>
+					Frequency (min)<br>
+					<input type="text" name="frequency" id="frequency"><br>
+					<input type="submit" value="Submit" id="submitButton">
+				</form>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/momentjs/2.13.0/moment.min.js"></script>
+		<script src="assets/javascript/app.js"></script>
+	</body>
+</html>
